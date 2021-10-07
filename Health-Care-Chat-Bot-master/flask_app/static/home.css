@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Kiwi Maru', serif;
+}
+
+.page-wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.page-wrapper .content {
+    padding: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper .content .welcome-message {
+    font-size: 2.5rem;
+    color: #E63946;
+    font-weight: 700;
+}
+
+.page-wrapper .chatbot {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+}
+
+.page-wrapper .chatbot .computer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F1FAEE;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-wrapper .chatbot .user {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #A8DADC;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-wrapper .input-area {
+    margin-top: 2rem;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-wrapper .input-area form {
+    width: 100%;
+}
+
+.page-wrapper .input-area .chat-input {
+    width: 70%;
+}
+
+.page-wrapper .input-area .round-button {
+    background-color: #E63946;
+    color: white;
+    border: 0px;
+    padding: 0rem 2rem;
+    border-radius: 1rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
